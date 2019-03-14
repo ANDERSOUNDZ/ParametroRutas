@@ -13,8 +13,11 @@ export class ProductDetailComponent implements OnInit {
   constructor(private route: ActivatedRoute) { }
     
   ngOnInit() {
+    //no tan entendible 
     this.route.params.subscribe(
       params => this.id = params['id']);
   }
+
+  
 
 }
